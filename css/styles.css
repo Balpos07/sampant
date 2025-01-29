@@ -272,6 +272,7 @@ nav.scrolled {
 .features {
     padding: 4rem 2rem;
     background-color: var(--background);
+    color: var(--text);
 }
 
 .features h2 {
