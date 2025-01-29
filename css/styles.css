@@ -35,8 +35,11 @@
     --card-bg: var(--card-bg-dark);
 }
 
-
 /* Global Styles */
+h2, h3, h4, p, a {
+    color: var(--text);
+}
+
 h2 {
     font-size: 4rem;
 }
@@ -45,17 +48,18 @@ h3 {
     font-size: 3.5rem;
 }
 
-h4{
+h4 {
     font-size: 3rem;
 }
 
-p{
+p {
     font-size: 2rem;
 }
 
 a {
     font-size: 2rem;
 }
+
 /* Apply theme based on system preference */
 @media (prefers-color-scheme: dark) {
     body {
@@ -250,7 +254,6 @@ nav.scrolled {
     }
 }
 
-
 /* Theme toggle button */
 .theme-toggle {
     background: none;
@@ -272,7 +275,6 @@ nav.scrolled {
 .features {
     padding: 4rem 2rem;
     background-color: var(--background);
-    color: var(--text);
 }
 
 .features h2 {
@@ -487,4 +489,3 @@ footer {
         margin-bottom: 0;
     }
 }
-
