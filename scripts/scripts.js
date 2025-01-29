@@ -23,6 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
         updateThemeIcon(newTheme);
+        console.log(`Theme changed to: ${newTheme}`); // Add this line to log the theme change
     });
 
     function updateThemeIcon(theme) {

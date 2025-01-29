@@ -60,7 +60,6 @@ a {
     font-size: 2rem;
 }
 
-/* Apply theme based on system preference */
 @media (prefers-color-scheme: dark) {
     body {
         --primary: var(--primary-dark);
@@ -92,7 +91,7 @@ body {
     color: var(--text);
 }
 
-/* Rest of your existing CSS remains the same */
+
 
 /* Navigation styles */
 nav {
